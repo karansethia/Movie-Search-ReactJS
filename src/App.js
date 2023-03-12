@@ -36,7 +36,7 @@ function App() {
       <h1>Movie-Loop</h1>
 
       <div className='search'>
-        <input placeholder='search for movies' value={searchTerm} onChange={(event) => setSearchTerm(event.target.value)} />
+        <input placeholder='Search for movies' value={searchTerm} onChange={(event) => setSearchTerm(event.target.value)} />
         <img src={searchIcon} alt='search' onClick={() => {searchMovies(searchTerm)}} />
       </div>
 
